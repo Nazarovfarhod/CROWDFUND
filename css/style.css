@@ -88,6 +88,15 @@
   text-align: center;
   padding: 1.9rem 4rem;
   background-color: var(--primary-color);
+
+  &:hover {
+    background-color: rgba(47, 47, 47, 0.9);
+    color: var(--white-color);
+  }
+  &:active {
+    background-color: rgba(47, 47, 47, 0.7);
+    color: var(--black-color);
+  }
 }
 .hero__container__btns-bookmark {
   display: flex;
@@ -160,15 +169,18 @@
 
 /* BREACKPOINTS */
 @media (max-width: 475px) {
+
   .container {
     padding-left: 2.4rem;
     padding-right: 2.4rem;
+
   }
 
   .header {
     background: url(../images/image-hero-mobile.jpg);
     height: 300px;
     padding-top: 3.2rem;
+
   }
 
   .sitenav {
