@@ -163,6 +163,87 @@
   border-radius: 3.3rem;
 }
 
+.about-project__description__title {
+  margin-bottom: 3.5rem;
+  color: var(--black-color);
+}
+.about-project__description__subtitle {
+  margin-bottom: 4rem;
+}
+.about-project__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.about-project__card {
+  border: 1.5px solid rgba(0, 0, 0, 20%);
+  padding: 3.6rem 3.2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 10px 0px;
+  }
+}
+
+.about-project__card__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-project__card__title h5 {
+  font-size: 1.8rem;
+  color: var(--black-color);
+  font-weight: 700;
+}
+.about-project__card__title p {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.about-project__card__subtitle {
+  line-height: 3rem;
+}
+.about-project__card__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-project__card__buttons h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--black-color);
+  font-size: 3.2rem;
+}
+.about-project__card__buttons h4 span {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.about-project__card__buttons .button-card {
+  color: var(--white-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: var(--primary-color);
+  padding: 1.5rem 3.2rem;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s;
+  &:hover {
+    background-color: var(--button-color);
+    cursor: pointer;
+  }
+}
+.about-project__card__disebled {
+  opacity: 50%;
+}
+.about-project__card__buttons .disebled-btn {
+  background-color: rgba(0, 0, 0, 1);
+}
 /* STATISTIKA END */
 
 /* RESPONSIVE DESIGN */
@@ -286,5 +367,17 @@
     width: 80px;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.15);
+  }
+  .about-project__card__title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.8rem;
+  }
+  .about-project__card__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2.4rem;
   }
 }
