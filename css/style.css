@@ -218,6 +218,10 @@
   }
   .hero__container__btns-button {
     color: var(--white-color);
+    &:hover {
+      background-color: rgba(47, 47, 47, 0.7);
+      color: var(--white-color);
+    }
     width: 214px;
   }
 
