@@ -3,18 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
+    <title>CROWDFUND</title>
     <link rel="stylesheet" href="./css/style.css" />
     <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
   </head>
   <body>
     <!-- HEADER START -->
-    <header class="header"></header>
+    <header class="header">
+      <div class="header__container container">
+        <a class="site__logo" href="./index.html"
+          ><img class="site__logo-img" src="./images/logo.svg" alt=""
+        /></a>
+
+        <nav class="sitenav">
+          <ul class="sitenav-list">
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">About</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Discover</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Get Started</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__button">
+          <img
+            class="header__button-icon"
+            src="./images/icon-hamburger.svg"
+            alt=""
+            width="16"
+            height="16"
+          />
+        </button>
+        <!-- TOOGLE NAVBAR -->
+      </div>
+    </header>
     <!-- HEADER END -->
 
     <!-- MAIN START -->
-    <main class="main"></main>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container main-section container">
+          <img
+            class="hero__container-icon"
+            src="./images/logo-mastercraft.svg"
+            alt=""
+            width="56"
+            height="56"
+          />
+          <div class="hero__conteiner__text">
+            <h1 class="hero__container__text-title">
+              Mastercraft Bamboo Monitor Riser
+            </h1>
+            <p class="hero__container__text-description">
+              A beautiful & handcrafted monitor stand to reduce neck and eye
+              strain.
+            </p>
+          </div>
+          <div class="hero__container__btns">
+            <button class="hero__container__btns-button btn">
+              Back this project
+            </button>
+            <div class="hero__container__btns-bookmark">
+              <img
+                class="hero__container__btns-bookmark-img"
+                src="./images/icon-bookmark.svg"
+                alt=""
+                width="56"
+                height="56"
+              />
+              <span class="bookmark">Bookmark</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="statistika">
+        <div class="statistika__container container main-section">
+          <div class="numbers">
+            <div class="price">
+              <h2 class="price-number">$89,914</h2>
+              <p class="price-text">of $100,000 backed</p>
+            <div class="price-mobile-border"></div>
+            </div>
+            <div class="price">
+              <h2 class="price-number">5,007</h2>
+              <p class="price-text">total backers</p>
+            <div class="price-mobile-border"></div>
+            </div>
+            <div class="price">
+              <h2 class="price-number">56</h2>
+              <p class="price-text">days left</p>
+            </div>
+          </div>
+          <div class="line__graf">
+            <div class="line__graf-span"></div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- MAIN END -->
 
     <!-- FOOTER START -->
