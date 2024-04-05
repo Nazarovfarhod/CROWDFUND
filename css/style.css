@@ -184,9 +184,8 @@
   gap: 2.4rem;
   transition: 0.3s;
   cursor: pointer;
-  &:hover {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 10px 0px;
-  }
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 10px 0px;
+
 }
 
 .about-project__card__title {
