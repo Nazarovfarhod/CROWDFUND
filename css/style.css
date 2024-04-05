@@ -8,14 +8,15 @@
   background: url(../images/image-hero-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
   padding-top: 5rem;
   background-position: center;
 }
 .header__container {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
+  height: 400px;
+
 }
 
 .sitenav-list {
