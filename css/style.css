@@ -29,7 +29,7 @@
   font-size: 1.3rem;
 
   &:hover {
-    color: var(--button-color);
+    color: var(--black-color);
   }
 
   &:active {
