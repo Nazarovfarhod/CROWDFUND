@@ -61,11 +61,26 @@
   margin-bottom: 2.4rem;
 }
 
-.hero__container-icon {
-  margin-top: -7.7rem;
+.mastercraft {
+  width: 56px;
+  height: 56px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: -7.7rem;
   margin-bottom: 4.8rem;
+}
+
+.hero__container-icon {
+  position: absolute;
+  transition: .3s ease;
+
+  &:hover {
+    transform: scale(1.5);
+
+  }
 }
 .hero__conteiner__text {
   display: flex;
@@ -238,7 +253,6 @@
   padding: 1.5rem 3.2rem;
   border: none;
   border-radius: 50px;
-
 
   &:hover {
     background-color: var(--button-color);
