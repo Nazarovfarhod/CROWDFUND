@@ -238,7 +238,8 @@
   padding: 1.5rem 3.2rem;
   border: none;
   border-radius: 50px;
-  transition: 0.3s;
+
+  
   &:hover {
     background-color: var(--button-color);
     cursor: pointer;
