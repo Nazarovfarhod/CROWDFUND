@@ -60,6 +60,10 @@
   margin-top: -9.2rem;
   margin-bottom: 2.4rem;
 }
+.hero__container:hover .hero__container-icon{
+  transform: scale(1.5)
+
+}
 
 .mastercraft {
   width: 56px;
@@ -77,10 +81,10 @@
   position: absolute;
   transition: .3s ease;
 
-  &:hover {
+  /* &:hover {
     transform: scale(1.5);
 
-  }
+  } */
 }
 .hero__conteiner__text {
   display: flex;
@@ -148,6 +152,9 @@
 .statistika {
   margin-bottom: 2.4rem;
 }
+.statistika__container:hover .line__graf::before{
+  width: 78%;
+}
 .price:nth-child(1) {
   display: flex;
   flex-direction: column;
@@ -194,17 +201,6 @@
   border-radius: 3.3rem;
   transition: 1s ease-in-out;
 }
-
-.line__graf:hover:before {
-  width: 78%;
-
-}
-/* .line__graf-span {
-  width: 78%;
-  height: 100%;
-  background-color: var(--primary-color);
-  border-radius: 3.3rem;
-} */
 
 .about-project__description__title {
   margin-bottom: 3.5rem;
