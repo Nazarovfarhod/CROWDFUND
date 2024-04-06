@@ -242,7 +242,7 @@
   opacity: 50%;
 }
 .about-project__card__buttons .disebled-btn {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--disabled-color);
 }
 /* STATISTIKA END */
 
