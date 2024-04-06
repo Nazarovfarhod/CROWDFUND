@@ -16,7 +16,6 @@
   align-items: start;
   justify-content: space-between;
   height: 400px;
-
 }
 
 .sitenav-list {
@@ -28,6 +27,14 @@
   color: var(--white-color);
   font-weight: 500;
   font-size: 1.3rem;
+
+  &:hover {
+    color: var(--button-color);
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
 }
 
 .header__button {
@@ -186,7 +193,6 @@
   transition: 0.3s;
   cursor: pointer;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 10px 0px;
-
 }
 
 .about-project__card__title {
@@ -237,12 +243,26 @@
     background-color: var(--button-color);
     cursor: pointer;
   }
+
+  &:active {
+    opacity: 0.5;
+    cursor: pointer;
+  }
 }
 .about-project__card__disebled {
   opacity: 50%;
 }
 .about-project__card__buttons .disebled-btn {
   background-color: var(--disabled-color);
+
+  &:hover {
+    background-color: var(--disabled-color);
+    cursor: pointer;
+  }
+
+  &:active {
+    opacity: 1;
+  }
 }
 /* STATISTIKA END */
 
@@ -250,11 +270,9 @@
 
 /* BREACKPOINTS */
 @media (max-width: 475px) {
-
   .container {
     padding-left: 2.4rem;
     padding-right: 2.4rem;
-
   }
 
   .header__container {
@@ -267,7 +285,6 @@
     background: url(../images/image-hero-mobile.jpg);
     /* background-position: center; */
     padding-top: 3.2rem;
-
   }
 
   .sitenav {
