@@ -80,12 +80,8 @@
 .hero__container-icon {
   position: absolute;
   transition: .3s ease;
-
-  /* &:hover {
-    transform: scale(1.5);
-
-  } */
 }
+
 .hero__conteiner__text {
   display: flex;
   flex-direction: column;
@@ -152,8 +148,15 @@
 .statistika {
   margin-bottom: 2.4rem;
 }
-.statistika__container:hover .line__graf::before{
+.statistika__container:hover .line__graf::before {
   width: 78%;
+
+}
+
+.statistika__container:hover .price-number {
+  transform: scale(1.1);
+  overflow: hidden;
+  transition: transform .5s ease;
 }
 .price:nth-child(1) {
   display: flex;
